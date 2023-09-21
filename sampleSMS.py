@@ -21,4 +21,6 @@ for i in df['Phone']:
     from_="+00000000000",   
     status_callback = 'https://eni6rjqjavb4.x.pipedream.net', #public.requestbin.com
     body="Text you want to display")
+
+    
     print(message.sid)
