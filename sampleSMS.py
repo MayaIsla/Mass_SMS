@@ -16,11 +16,16 @@ auth_token  = "token"
 client = Client(account_sid, auth_token)
 
 for i in df['Phone']:
-    message = client.messages.create(
-    to= i,   
-    from_="+00000000000",   
-    status_callback = 'https://eni6rjqjavb4.x.pipedream.net', #public.requestbin.com
-    body="Text you want to display")
+    try:
+        message = client.messages.create(
+        to = i,
+        from_="+10000000000",   
+        body = "Text you want to display")
+        print(message.sid)
+        mess_phone = str(i)
+        mess_id = str(message.sid)
+        logging.info(mess_phone + " " + mess_id)
+    except:
+        pass
 
-    
-    print(message.sid)
+
