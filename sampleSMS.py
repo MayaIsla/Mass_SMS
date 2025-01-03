@@ -1,10 +1,9 @@
 from twilio.rest import Client
 import pandas as pd
-import requests
-import json
-import time
+import logging
 
 
+logging.basicConfig(level=logging.INFO, filename="C:/path/to/logfile/TIMESTAMP.log", filemode="a", format="%(asctime)s %(levelname)s %(message)s")
 dict = "C:/path/to/file/file.csv"
 
 df = pd.read_csv(dict)
