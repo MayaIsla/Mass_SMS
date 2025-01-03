@@ -1,0 +1,11 @@
+2024-09-25 08:03:04,920 INFO -- BEGIN Twilio API Request --
+2024-09-25 08:03:04,920 INFO POST Request: https://api.twilio.com/2010-04-01/Messages.json
+2024-09-25 08:03:04,921 INFO Headers:
+2024-09-25 08:03:04,921 INFO Content-Type : application/x-www-form-urlencoded
+2024-09-25 08:03:04,921 INFO User-Agent : twilio-python/9.3.1 (Windows AMD64) Python/3.10.11
+2024-09-25 08:03:04,921 INFO X-Twilio-Client : python-9.3.1
+2024-09-25 08:03:04,921 INFO Accept-Charset : utf-8
+2024-09-25 08:03:04,921 INFO Accept : application/json
+2024-09-25 08:03:04,921 INFO -- END Twilio API Request --
+2024-09-25 08:03:05,972 INFO Response Status Code: 201
+2024-09-25 08:03:05,972 INFO Response Headers: {Sample Header}
