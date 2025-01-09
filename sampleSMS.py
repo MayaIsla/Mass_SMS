@@ -21,7 +21,7 @@ for i in df['Phone']:
         mess_phone = str(i)
         mess_id = str(message.sid)
         logging.info(mess_phone + " " + mess_id)
-    except:
+    except: #Some numbers choose to opt out, if ran in a normal for loop causes the api to timeout, needing error handling to catch these specific opt out numbers accordingly.
         pass
 
 
