@@ -9,9 +9,7 @@ dict = "C:/path/to/file/file.csv"
 df = pd.read_csv(dict)
 
 account_sid = "SID"
-
 auth_token  = "token"
-
 client = Client(account_sid, auth_token)
 
 for i in df['Phone']:
